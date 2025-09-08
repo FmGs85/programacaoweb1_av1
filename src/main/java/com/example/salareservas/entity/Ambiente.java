@@ -25,7 +25,7 @@ public class Ambiente{
     private Integer ambienteNumeroPcs;
 
     @Column(name = "ambiente_capacidade")
-    private Integer ambienteCapacidate;
+    private Integer ambienteCapacidade;
 
     @Column(name = "ambiente_status")
     private Integer ambienteStatus;
@@ -81,12 +81,12 @@ public class Ambiente{
         this.ambienteNumeroPcs = ambienteNumeroPcs;
     }
 
-    public Integer getAmbienteCapacidate() {
-        return ambienteCapacidate;
+    public Integer getAmbienteCapacidade() {
+        return ambienteCapacidade;
     }
 
-    public void setAmbienteCapacidate(Integer ambienteCapacidate) {
-        this.ambienteCapacidate = ambienteCapacidate;
+    public void setAmbienteCapacidade(Integer ambienteCapacidade) {
+        this.ambienteCapacidade = ambienteCapacidade;
     }
 
     public Integer getAmbienteStatus() {

@@ -2,6 +2,7 @@ package com.example.salareservas.controller;
 
 import com.example.salareservas.dto.request.SalaRequestDTO;
 import com.example.salareservas.dto.response.SalaResponseDTO;
+import com.example.salareservas.service.SalaService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;

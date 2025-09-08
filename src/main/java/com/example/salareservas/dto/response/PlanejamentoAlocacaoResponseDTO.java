@@ -14,9 +14,7 @@ public class PlanejamentoAlocacaoResponseDTO {
     private UsuarioResponseDTO usuario;
     private ReservaAlocacaoResponseDTO reservaAlocacao;
 
-
     public PlanejamentoAlocacaoResponseDTO() {}
-
 
     public Long getPlanejamentoAlocacaoId() {
         return planejamentoAlocacaoId;
@@ -63,4 +61,6 @@ public class PlanejamentoAlocacaoResponseDTO {
     }
 
     public void setPlanejamentoAlocacaoStatus(Integer planejamentoAlocacaoStatus) {
-        this.planejamentoAlocacaoStatus =
+        this.planejamentoAlocacaoStatus = planejamentoAlocacaoStatus;
+    }
+}

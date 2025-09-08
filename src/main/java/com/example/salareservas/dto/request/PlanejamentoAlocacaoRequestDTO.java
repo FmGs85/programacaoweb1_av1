@@ -14,10 +14,10 @@ public class PlanejamentoAlocacaoRequestDTO {
     private Long usuarioId;
     private Long reservaAlocacaoId;
 
-
+    // Construtores
     public PlanejamentoAlocacaoRequestDTO() {}
 
-
+    // Getters e Setters
     public LocalDate getPlanejamentoAlocacaoData() {
         return planejamentoAlocacaoData;
     }
@@ -58,53 +58,27 @@ public class PlanejamentoAlocacaoRequestDTO {
         this.planejamentoAlocacaoStatus = planejamentoAlocacaoStatus;
     }
 
-    public AmbienteResponseDTO getAmbiente() {
-        return ambiente;
+    public Long getAmbienteId() {
+        return ambienteId;
     }
 
-    public void setAmbiente(AmbienteResponseDTO ambiente) {
-        this.ambiente = ambiente;
+    public void setAmbienteId(Long ambienteId) {
+        this.ambienteId = ambienteId;
     }
 
-    public UsuarioResponseDTO getUsuario() {
-        return usuario;
+    public Long getUsuarioId() {
+        return usuarioId;
     }
 
-    public void setUsuario(UsuarioResponseDTO usuario) {
-        this.usuario = usuario;
+    public void setUsuarioId(Long usuarioId) {
+        this.usuarioId = usuarioId;
     }
 
-    public ReservaAlocacaoResponseDTO getReservaAlocacao() {
-        return reservaAlocacao;
+    public Long getReservaAlocacaoId() {
+        return reservaAlocacaoId;
     }
 
-    public void setReservaAlocacao(ReservaAlocacaoResponseDTO reservaAlocacao) {
-        this.reservaAlocacao = reservaAlocacao;
+    public void setReservaAlocacaoId(Long reservaAlocacaoId) {
+        this.reservaAlocacaoId = reservaAlocacaoId;
     }
-} planejamentoAlocacaoStatus;
-    }
-
-public Long getAmbienteId() {
-    return ambienteId;
-}
-
-public void setAmbienteId(Long ambienteId) {
-    this.ambienteId = ambienteId;
-}
-
-public Long getUsuarioId() {
-    return usuarioId;
-}
-
-public void setUsuarioId(Long usuarioId) {
-    this.usuarioId = usuarioId;
-}
-
-public Long getReservaAlocacaoId() {
-    return reservaAlocacaoId;
-}
-
-public void setReservaAlocacaoId(Long reservaAlocacaoId) {
-    this.reservaAlocacaoId = reservaAlocacaoId;
-}
 }
